@@ -1,10 +1,13 @@
 
-import React from 'react';
+import React, { Component } from 'react';
+export default class AppLayout extends Component {
+  render(){
+    return(
+      <div>
+        <h1>this is mainlayout.</h1>
+        {this.props.content()}
+      </div>
+    );
+  }
+};
 
-const AppLayout = ({content = () => null }) => (
-  <div>
-    {content()}
-  </div>
-);
-
-export default Layout;
