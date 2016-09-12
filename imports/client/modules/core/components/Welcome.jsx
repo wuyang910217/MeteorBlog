@@ -4,42 +4,40 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 export default class Welcome extends Component {
   getStyles(){
     return {
-      root: {
-        flexGrow: '1',
+      container: {
+        margin: '0',
+        padding: '0',
         backgroundImage: 'url(/images/bg-running-man.jpg)',
-        backgroundSize: 'cover',
         backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed',
+        backgroundRepead: 'no-repeat',
+        backgroundSize: 'cover',
+        heigth: '100vh',
+      },
+      home: {
         display: 'flex',
-        flexDirection: 'column',
+        heigth: '100%',
+        background: 'rgba(0,0,0,0.3)',
+        alignItems: 'flex-end',
         justifyContent: 'center',
       },
-      slogan: {
-        textAlign: 'center',
+      link: {
+        display: 'inline-block',
+        padding: '15px 25px',
         color: '#fff',
-        textTransform: 'uppercase',
         fontSize: '20px',
-        fontWeight: '500',
-        width: '100%',
-        paddingTop: '50px',
-        paddingBottom: '50px',
-        backgroundColor: 'rgba(0,0,0,0.3)',
-        '@media (minWidth: 600px)': {
-          fontSize: '50px',
-          paddingBottom: '100px',
-          paddingTop: '100px'
-        },
+        letterSpacing: '3px',
+        borderRadius: '5px',
+        textDecoration: 'none',
       },
-    }
-  };
+    };
+  }
 
   render(){
     const styles = this.getStyles();
     return(
-      <div style={ styles.root }>
-        <div style={ styles.slogan }>
-        this is home page.
+      <div style={ styles.container }>
+        <div style={ styles.home }>
+          <a href="#" style={ styles.link }>去首页</a>
         </div>
       </div>
     );
