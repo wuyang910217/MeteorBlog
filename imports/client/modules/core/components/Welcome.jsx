@@ -12,7 +12,9 @@ export class Welcome extends Component {
         backgroundPosition: 'center center',
         backgroundRepead: 'no-repeat',
         backgroundSize: 'cover',
-        heigth: '100vh',
+        height: '100vh',
+        width: '100%',
+        position: 'absolute',
       },
       home: {
         display: 'flex',
@@ -23,7 +25,6 @@ export class Welcome extends Component {
       },
       link: {
         display: 'inline-block',
-        padding: '15px 25px',
         color: '#fff',
         fontSize: '20px',
         letterSpacing: '3px',
