@@ -643,6 +643,11 @@
       "from": "boom@>=2.0.0 <3.0.0",
       "resolved": "./node_shrinkwrap/boom-2.10.1.tgz"
     },
+    "bowser": {
+      "version": "1.4.6",
+      "from": "bowser@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/bowser-1.4.6.tgz"
+    },
     "brace-expansion": {
       "version": "1.1.6",
       "from": "brace-expansion@>=1.0.0 <2.0.0",
@@ -719,6 +724,11 @@
           "resolved": "./node_shrinkwrap/supports-color-2.0.0.tgz"
         }
       }
+    },
+    "change-emitter": {
+      "version": "0.1.2",
+      "from": "change-emitter@>=0.1.2 <0.2.0",
+      "resolved": "./node_shrinkwrap/change-emitter-0.1.2.tgz"
     },
     "chokidar": {
       "version": "1.6.0",
@@ -1520,6 +1530,11 @@
       "from": "https-browserify@0.0.0",
       "resolved": "./node_shrinkwrap/https-browserify-0.0.0.tgz"
     },
+    "hyphenate-style-name": {
+      "version": "1.0.1",
+      "from": "hyphenate-style-name@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/hyphenate-style-name-1.0.1.tgz"
+    },
     "iconv-lite": {
       "version": "0.4.13",
       "from": "iconv-lite@>=0.4.13 <0.5.0",
@@ -1569,6 +1584,11 @@
       "version": "2.0.3",
       "from": "inherits@>=2.0.1 <3.0.0",
       "resolved": "./node_shrinkwrap/inherits-2.0.3.tgz"
+    },
+    "inline-style-prefixer": {
+      "version": "2.0.4",
+      "from": "inline-style-prefixer@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/inline-style-prefixer-2.0.4.tgz"
     },
     "inquirer": {
       "version": "0.12.0",
@@ -1994,6 +2014,11 @@
       "version": "1.7.0",
       "from": "mantra-core@>=1.6.1 <2.0.0",
       "resolved": "./node_shrinkwrap/mantra-core-1.7.0.tgz"
+    },
+    "material-ui": {
+      "version": "0.15.4",
+      "from": "material-ui@latest",
+      "resolved": "./node_shrinkwrap/material-ui-0.15.4.tgz"
     },
     "math-expression-evaluator": {
       "version": "1.2.14",
@@ -3086,10 +3111,25 @@
       "from": "react@latest",
       "resolved": "./node_shrinkwrap/react-15.3.2.tgz"
     },
+    "react-addons-create-fragment": {
+      "version": "15.3.2",
+      "from": "react-addons-create-fragment@>=15.2.1 <16.0.0",
+      "resolved": "./node_shrinkwrap/react-addons-create-fragment-15.3.2.tgz"
+    },
+    "react-addons-transition-group": {
+      "version": "15.3.2",
+      "from": "react-addons-transition-group@>=15.2.1 <16.0.0",
+      "resolved": "./node_shrinkwrap/react-addons-transition-group-15.3.2.tgz"
+    },
     "react-dom": {
       "version": "15.3.2",
       "from": "react-dom@latest",
       "resolved": "./node_shrinkwrap/react-dom-15.3.2.tgz"
+    },
+    "react-event-listener": {
+      "version": "0.2.1",
+      "from": "react-event-listener@>=0.2.1 <0.3.0",
+      "resolved": "./node_shrinkwrap/react-event-listener-0.2.1.tgz"
     },
     "react-fuzzy": {
       "version": "0.3.3",
@@ -3121,6 +3161,23 @@
       "from": "react-simple-di@>=1.2.0 <2.0.0",
       "resolved": "./node_shrinkwrap/react-simple-di-1.2.0.tgz"
     },
+    "react-tap-event-plugin": {
+      "version": "1.0.0",
+      "from": "react-tap-event-plugin@latest",
+      "resolved": "./node_shrinkwrap/react-tap-event-plugin-1.0.0.tgz",
+      "dependencies": {
+        "fbjs": {
+          "version": "0.2.1",
+          "from": "fbjs@>=0.2.1 <0.3.0",
+          "resolved": "./node_shrinkwrap/fbjs-0.2.1.tgz"
+        },
+        "whatwg-fetch": {
+          "version": "0.9.0",
+          "from": "whatwg-fetch@>=0.9.0 <0.10.0",
+          "resolved": "./node_shrinkwrap/whatwg-fetch-0.9.0.tgz"
+        }
+      }
+    },
     "readable-stream": {
       "version": "2.0.6",
       "from": "readable-stream@>=2.0.5 <2.1.0",
@@ -3140,6 +3197,18 @@
       "version": "0.6.2",
       "from": "rechoir@>=0.6.2 <0.7.0",
       "resolved": "./node_shrinkwrap/rechoir-0.6.2.tgz"
+    },
+    "recompose": {
+      "version": "0.20.2",
+      "from": "recompose@>=0.20.2 <0.21.0",
+      "resolved": "./node_shrinkwrap/recompose-0.20.2.tgz",
+      "dependencies": {
+        "symbol-observable": {
+          "version": "0.2.4",
+          "from": "symbol-observable@>=0.2.4 <0.3.0",
+          "resolved": "./node_shrinkwrap/symbol-observable-0.2.4.tgz"
+        }
+      }
     },
     "redbox-react": {
       "version": "1.3.1",
@@ -3307,6 +3376,11 @@
       "version": "0.7.4",
       "from": "shelljs@>=0.7.4 <0.8.0",
       "resolved": "./node_shrinkwrap/shelljs-0.7.4.tgz"
+    },
+    "simple-assign": {
+      "version": "0.1.0",
+      "from": "simple-assign@>=0.1.0 <0.2.0",
+      "resolved": "./node_shrinkwrap/simple-assign-0.1.0.tgz"
     },
     "slash": {
       "version": "1.0.0",
@@ -3661,6 +3735,11 @@
       "version": "0.0.4",
       "from": "vm-browserify@0.0.4",
       "resolved": "./node_shrinkwrap/vm-browserify-0.0.4.tgz"
+    },
+    "warning": {
+      "version": "3.0.0",
+      "from": "warning@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/warning-3.0.0.tgz"
     },
     "watchpack": {
       "version": "0.2.9",
