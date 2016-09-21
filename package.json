@@ -7,17 +7,27 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "material-ui": "0.15.4",
-    "meteor-node-stubs": "~0.2.0",
-    "moment": "^2.15.1",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-mounter": "1.2.0",
-    "react-tap-event-plugin": "1.0.0"
+    "formsy-material-ui": "0.5.0",
+    "formsy-react": "0.18.1",
+    "lodash": "file:node_shrinkwrap/lodash-4.16.1.tgz",
+    "mantra-core": "file:node_shrinkwrap/mantra-core-1.7.0.tgz",
+    "material-ui": "file:node_shrinkwrap/material-ui-0.15.4.tgz",
+    "meteor-node-stubs": "https://registry.npmjs.org/meteor-node-stubs/-/meteor-node-stubs-0.2.3.tgz",
+    "moment": "https://registry.npmjs.org/moment/-/moment-2.15.1.tgz",
+    "radium": "0.18.1",
+    "react": "file:node_shrinkwrap/react-15.3.2.tgz",
+    "react-dom": "file:node_shrinkwrap/react-dom-15.3.2.tgz",
+    "react-komposer": "file:node_shrinkwrap/react-komposer-1.13.1.tgz",
+    "react-mounter": "https://registry.npmjs.org/react-mounter/-/react-mounter-1.2.0.tgz",
+    "react-redux": "https://registry.npmjs.org/react-redux/-/react-redux-4.4.5.tgz",
+    "react-tap-event-plugin": "file:node_shrinkwrap/react-tap-event-plugin-1.0.0.tgz",
+    "redux": "https://registry.npmjs.org/redux/-/redux-3.6.0.tgz"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.5.2",
-    "eslint": "3.5.0",
-    "eslint-plugin-react": "6.3.0"
+    "babel": "https://registry.npmjs.org/babel/-/babel-6.5.2.tgz",
+    "babel-root-slash-import": "1.1.0",
+    "eslint": "https://registry.npmjs.org/eslint/-/eslint-3.5.0.tgz",
+    "eslint-plugin-react": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-6.3.0.tgz"
   }
 }
