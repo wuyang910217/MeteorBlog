@@ -10,7 +10,12 @@
     "meteor-node-stubs": "~0.2.0",
     "moment": "^2.15.1",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-mounter": "1.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@kadira/storybook": "^2.5.2",
+    "eslint": "3.5.0",
+    "eslint-plugin-react": "6.3.0"
+  }
 }
