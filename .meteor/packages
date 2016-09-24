@@ -18,7 +18,7 @@ ecmascript@0.5.8              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.2.1            # Server-side component of the `meteor shell` command
 
 #meteorhacks:kadira
-msavin:mongol
+#msavin:mongol
 alanning:roles
 static-html
 kadira:flow-router
