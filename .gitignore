@@ -1,3 +1,4 @@
 node_modules/
+node_cache/
 settings.json
-/node_cache
+npm-debug.log

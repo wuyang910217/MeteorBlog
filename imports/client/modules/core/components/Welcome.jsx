@@ -3,7 +3,7 @@ import Radium from 'radium';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 export class Welcome extends Component {
-  getStyles(){
+  getStyles() {
     return {
       container: {
         backgroundImage: 'url(/images/bg-running-man.jpg)',
@@ -33,17 +33,17 @@ export class Welcome extends Component {
         textDecoration: 'none',
         ':hover': {
           background: '#4FC3F7',
-        }
+        },
       },
     };
   }
 
-  render(){
+  render() {
     const styles = this.getStyles();
-    return(
-      <div style={ styles.container }>
-        <div style={ styles.home }>
-          <a href="#" style={ styles.link }>去首页</a>
+    return (
+      <div style={styles.container}>
+        <div style={styles.home}>
+          <a href="/" style={styles.link}>去首页</a>
         </div>
       </div>
     );
