@@ -16,11 +16,12 @@ const schema = [`
     isPublic: Boolean
     likeCount: Int
     tags: Tag
+    category: Category
+    comments: Comment
     updatedAt: Float
     createdAt: Float
   }
 `];
 
 export default schema;
-    // category: Category
-    // comments: Comment
+
