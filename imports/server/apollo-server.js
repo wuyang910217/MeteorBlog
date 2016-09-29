@@ -7,6 +7,9 @@ import resolvers from '../lib/resolvers.js';
 const schema = makeExecutableSchema({
   typeDefs: rootSchema,
   resolvers,
+  resolverValidationOptions: {
+    requireResolverForNonScalar: false,
+  },
 });
 
 createApolloServer({

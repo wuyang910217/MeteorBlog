@@ -1,13 +1,21 @@
 import postsSchema from './posts/schema';
 import tagsSchema from './tags/schema';
+import usersSchema from './users/schema';
+import testsSchema from './test/schema';
 
 const mainSchema = [`
   type Query {
+    postsTest: [PostTest],
+    postTest(authorName: String!): PostTest,
+    users: [User],
+    user(id: String!): User,
     posts: [Post],
+    post(id: String!): Post,
     tags: [Tag],
   },
   type Mutation {
     insertPost(authorName: String!, title: String!): Post
+    insertPostTest(authorName: String!, title: String!): PostTest
   },
   schema {
     query: Query,
@@ -19,6 +27,8 @@ const rootSchema = [
   ...mainSchema,
   ...postsSchema,
   ...tagsSchema,
+  ...usersSchema,
+  ...testsSchema,
 ];
 
 export default rootSchema;

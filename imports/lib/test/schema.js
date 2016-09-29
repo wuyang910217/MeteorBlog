@@ -1,28 +1,18 @@
 const schema = [`
-  type PostList {
-    postId: String
-    authorName: String
-    postTitle: String
-    postUrl: String
-  },
-  type Post {
+  type PostTest {
     _id: String!
     authorName: String
-    authorId: String
     title: String
     summary: String
     content: String
+    tags: String
     postUrl: String
     isPublic: Boolean
     likeCount: Int
-    tags: Tag
-
-    updatedAt: Float
     createdAt: Float
+    updatedAt: Float
   }
 `];
 
 export default schema;
 
-    // category: Category
-    // comments: Comment

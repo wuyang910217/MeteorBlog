@@ -5,6 +5,9 @@ const postsResolvers = {
     async posts(root, args, context) {
       return await Posts.find({}).fetch();
     },
+    async post(root, args, context) {
+      return Posts.findOne({ _id: args.id });
+    },
   },
   Mutation: {
     async insertPost(root, args, context) {
