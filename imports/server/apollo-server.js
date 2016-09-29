@@ -1,11 +1,13 @@
 import { createApolloServer } from 'meteor/apollo';
-import { makeExecutableSchema, addMockFunctionsToSchema } from 'graphql-tools';
+import { makeExecutableSchema } from 'graphql-tools';
 
-import mainSchema from '/imports/lib/schema.js';
-import resolvers from '/imports/lib/resolvers.js';
+import rootSchema from '../lib/schema.js';
+import resolvers from '../lib/resolvers.js';
+
+import '../lib/faker.js';
 
 const schema = makeExecutableSchema({
-  typeDefs: mainSchema,
+  typeDefs: rootSchema,
   resolvers,
 });
 

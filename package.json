@@ -17,6 +17,7 @@
     "formsy-react": "^0.18.1",
     "graphql": "^0.7.0",
     "graphql-tag": "^0.1.14",
+    "graphql-tools": "^0.7.2",
     "lodash": "^4.16.1",
     "mantra-core": "^1.7.0",
     "material-ui": "^0.15.4",
