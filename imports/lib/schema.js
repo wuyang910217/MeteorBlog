@@ -1,6 +1,10 @@
 import postsSchema from './posts/schema.js';
 import tagsSchema from './tags/schema.js';
 import usersSchema from './users/schema.js';
+import categoriesSchema from './categories/schema.js';
+import notificationsSchema from './notifications/schema.js';
+import commentsSchema from './comments/schema.js';
+import notesSchema from './notes/schema.js';
 import testsSchema from './test/schema.js';
 
 const mainSchema = [`
@@ -12,6 +16,12 @@ const mainSchema = [`
     posts: [Post],
     post(id: String!): Post,
     tags: [Tag],
+    tag(name: String!): Tag,
+    categories: [Category],
+    category(name: String!): Category,
+    notifications: [Notification],
+    comments: [Comment],
+    notes: [Note],
   },
   type Mutation {
     insertPost(authorName: String!, title: String!): Post
@@ -28,6 +38,10 @@ const rootSchema = [
   ...postsSchema,
   ...tagsSchema,
   ...usersSchema,
+  ...categoriesSchema,
+  ...notesSchema,
+  ...notificationsSchema,
+  ...commentsSchema,
   ...testsSchema,
 ];
 

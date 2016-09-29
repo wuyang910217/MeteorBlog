@@ -6,7 +6,7 @@ const schema = [`
     postTitle: String
     commentId: String
     commenterName: String
-    read: Boorean
+    read: Boolean
     createdAt: Float
   }
 `];
