@@ -1,7 +1,7 @@
-import postsSchema from './posts/schema';
-import tagsSchema from './tags/schema';
-import usersSchema from './users/schema';
-import testsSchema from './test/schema';
+import postsSchema from './posts/schema.js';
+import tagsSchema from './tags/schema.js';
+import usersSchema from './users/schema.js';
+import testsSchema from './test/schema.js';
 
 const mainSchema = [`
   type Query {
