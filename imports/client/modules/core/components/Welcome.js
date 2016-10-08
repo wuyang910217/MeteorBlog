@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Radium from 'radium';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-export class Welcome extends Component {
+class Welcome extends Component {
   getStyles() {
     return {
       container: {
@@ -31,9 +30,6 @@ export class Welcome extends Component {
         fontSize: '20px',
         borderRadius: '5px',
         textDecoration: 'none',
-        ':hover': {
-          background: '#4FC3F7',
-        },
       },
     };
   }
@@ -50,4 +46,4 @@ export class Welcome extends Component {
   }
 }
 
-export default Radium(Welcome);
+export default Welcome;

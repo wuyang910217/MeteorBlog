@@ -3,7 +3,7 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Tracker } from 'meteor/tracker';
 import { ReactiveDict } from 'meteor/reactive-dict';
 
-export default function (){
+export default function () {
   return {
     Meteor,
     FlowRouter,

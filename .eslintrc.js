@@ -17,6 +17,7 @@ module.exports = {
     "import/resolver": "meteor",
   },
   "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/no-extraneous-dependencies": [0],
     "indent": [2, 2, { "SwitchCase": 1 }],
     "linebreak-style": [2, "unix"],
