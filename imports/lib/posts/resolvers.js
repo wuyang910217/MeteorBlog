@@ -9,6 +9,11 @@ const postsResolvers = {
       return Posts.findOne({ _id: args.id });
     },
   },
+  Post: {
+    tags: ({ tags }) => tags,
+    category: ({ category }) => category,
+    comments: ({ comments }) => comments,
+  },
   Mutation: {
     async insertPost(root, args, context) {
       const createdAt = Date.now();

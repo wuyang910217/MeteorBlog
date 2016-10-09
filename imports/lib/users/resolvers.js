@@ -9,6 +9,10 @@ const usersResolvers = {
       return Meteor.users.findOne({ _id: args.id });
     },
   },
+  User: {
+    profile: ({ profile }) => profile,
+    githubInfo: ({ githubInfo }) => githubInfo,
+  },
   Mutation: {
   },
 };

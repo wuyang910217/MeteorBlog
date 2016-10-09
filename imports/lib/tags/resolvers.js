@@ -9,6 +9,9 @@ const tagsResolvers = {
       return await Tags.findOne({ name: args.name });
     },
   },
+  Tag: {
+    postIdArray: ({ postIdArray }) => postIdArray,
+  },
   Mutation: {
   },
 };

@@ -27,3 +27,4 @@ apollo
 dburles:factory
 accounts-password@1.3.0
 accounts-github@1.0.10
+reactive-dict

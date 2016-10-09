@@ -9,6 +9,9 @@ const categoriesResolvers = {
       return await Categories.findOne({ name: args.name });
     },
   },
+  Category: {
+    postIdArray: ({ postIdArray }) => postIdArray,
+  },
   Mutation: {
 
   },

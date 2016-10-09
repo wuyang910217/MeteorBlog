@@ -6,6 +6,9 @@ const commentsResolvers = {
       return await Comments.find({}).fetch();
     },
   },
+  Comment: {
+    replies: ({ replies }) => replies,
+  },
   Mutation: {
 
   },

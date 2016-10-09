@@ -14,6 +14,8 @@ const schema = [`
     content: String
     postUrl: String
     isPublic: Boolean
+    imgUrl: String
+    readCount: Int
     likeCount: Int
     tags: Tag
     category: Category
