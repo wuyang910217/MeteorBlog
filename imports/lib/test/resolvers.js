@@ -7,7 +7,7 @@ const testsResolvers = {
       return await PostTests.find({}).fetch();
     },
     async postTest(root, args, context) {
-      return PostTests.findOne({ authorName: args.authorName });
+      return await PostTests.findOne({ authorName: args.authorName });
     },
   },
   Mutation: {

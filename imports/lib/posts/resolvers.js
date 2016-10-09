@@ -6,7 +6,7 @@ const postsResolvers = {
       return await Posts.find({}).fetch();
     },
     async post(root, args, context) {
-      return Posts.findOne({ _id: args.id });
+      return await Posts.findOne({ _id: args.id });
     },
   },
   Post: {

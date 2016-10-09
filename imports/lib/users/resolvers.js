@@ -6,7 +6,7 @@ const usersResolvers = {
       return await Meteor.users.find({}).fetch();
     },
     async user(root, args, context) {
-      return Meteor.users.findOne({ _id: args.id });
+      return await Meteor.users.findOne({ _id: args.id });
     },
   },
   User: {

@@ -2,12 +2,12 @@ import React from 'react';
 import { mount } from 'react-mounter';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 
-import AppLayout from './components/layout/MainLayout.js';
-import Welcome from './components/Welcome.js';
-import Runningman from './components/static/runningman.js';
-import Friends from './components/static/friends.js';
-import Startrek from './components/static/startrek.js';
-import NotFound from './components/component/notfound.js';
+import AppLayout from './components/layout/MainLayout';
+import Welcome from './components/Welcome';
+import Runningman from './components/static/runningman';
+import Friends from './components/static/friends';
+import Startrek from './components/static/startrek';
+import NotFound from './components/component/Notfound';
 
 export default function (injectDeps) {
   const MainLayoutCtx = injectDeps(AppLayout);
